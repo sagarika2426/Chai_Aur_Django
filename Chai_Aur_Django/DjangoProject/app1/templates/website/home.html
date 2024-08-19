@@ -1,0 +1,12 @@
+{% extends "base.html" %} 
+{% comment %} Here django will try to find base.html in it's app 
+but of it wont find it then it will check it's parent dir {% endcomment %}
+
+{% block title %}
+App1 Home
+{% endblock title %}
+
+{% block content %}
+This is the home page for app1
+{% endblock content %}
+
